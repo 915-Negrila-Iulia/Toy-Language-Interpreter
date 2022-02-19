@@ -1,0 +1,1054 @@
+id: 5
+ExeStack
+string varf
+varf=D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varf.open()
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+Out
+FileTable
+Heap
+--------------------
+
+id: 5
+ExeStack
+string varf
+varf=D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varf.open()
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+Out
+FileTable
+Heap
+--------------------
+
+id: 5
+ExeStack
+string varf
+varf=D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varf.open()
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+Out
+FileTable
+Heap
+--------------------
+
+id: 5
+ExeStack
+varf=D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varf.open()
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> 
+Out
+FileTable
+Heap
+--------------------
+
+id: 5
+ExeStack
+varf=D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varf.open()
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> 
+Out
+FileTable
+Heap
+--------------------
+
+id: 5
+ExeStack
+varf=D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varf.open()
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> 
+Out
+FileTable
+Heap
+--------------------
+
+id: 5
+ExeStack
+varf=D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varf.open()
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> 
+Out
+FileTable
+Heap
+--------------------
+
+id: 5
+ExeStack
+varf.open()
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Out
+FileTable
+Heap
+--------------------
+
+id: 5
+ExeStack
+varf.open()
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Out
+FileTable
+Heap
+--------------------
+
+id: 5
+ExeStack
+varf.open()
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Out
+FileTable
+Heap
+--------------------
+
+id: 5
+ExeStack
+varf.open()
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Out
+FileTable
+Heap
+--------------------
+
+id: 5
+ExeStack
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Out
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Out
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Out
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Out
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 0
+Out
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 0
+Out
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 0
+Out
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 0
+Out
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 15
+Out
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 15
+Out
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 15
+Out
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 15
+Out
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 15
+Out
+15
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 15
+Out
+15
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 15
+Out
+15
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 15
+Out
+15
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 10
+Out
+15
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 10
+Out
+15
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 10
+Out
+15
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 10
+Out
+15
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 10
+Out
+15
+10
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 10
+Out
+15
+10
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 10
+Out
+15
+10
+FileTable
+Heap
+--------------------
+
+id: 5
+ExeStack
+string varf
+varf=D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varf.open()
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+Out
+FileTable
+Heap
+--------------------
+
+id: 5
+ExeStack
+string varf
+varf=D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varf.open()
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+Out
+FileTable
+Heap
+--------------------
+
+id: 5
+ExeStack
+string varf
+varf=D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varf.open()
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+Out
+FileTable
+Heap
+--------------------
+
+id: 5
+ExeStack
+varf=D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varf.open()
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> 
+Out
+FileTable
+Heap
+--------------------
+
+id: 5
+ExeStack
+varf=D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varf.open()
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> 
+Out
+FileTable
+Heap
+--------------------
+
+id: 5
+ExeStack
+varf=D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varf.open()
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> 
+Out
+FileTable
+Heap
+--------------------
+
+id: 5
+ExeStack
+varf=D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varf.open()
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> 
+Out
+FileTable
+Heap
+--------------------
+
+id: 5
+ExeStack
+varf.open()
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Out
+FileTable
+Heap
+--------------------
+
+id: 5
+ExeStack
+varf.open()
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Out
+FileTable
+Heap
+--------------------
+
+id: 5
+ExeStack
+varf.open()
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Out
+FileTable
+Heap
+--------------------
+
+id: 5
+ExeStack
+varf.open()
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Out
+FileTable
+Heap
+--------------------
+
+id: 5
+ExeStack
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Out
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Out
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Out
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+int varc
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Out
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 0
+Out
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 0
+Out
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 0
+Out
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+varc.read()
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 0
+Out
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 15
+Out
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 15
+Out
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 15
+Out
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+print(varc)
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 15
+Out
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 15
+Out
+15
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 15
+Out
+15
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 15
+Out
+15
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+varc.read()
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 15
+Out
+15
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 10
+Out
+15
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 10
+Out
+15
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 10
+Out
+15
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+print(varc)
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 10
+Out
+15
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 10
+Out
+15
+10
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+varf.close()
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 10
+Out
+15
+10
+FileTable
+D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+Heap
+--------------------
+
+id: 5
+ExeStack
+SymTable
+varf --> D:\JAVAProjects\InterpretorToyLanguage\src\test.in
+varc --> 10
+Out
+15
+10
+FileTable
+Heap
+--------------------
+

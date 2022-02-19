@@ -1,0 +1,1716 @@
+id: 17
+ExeStack
+int v
+v=0
+repeat{fork(print(v); v=v-1); v=v+1}until(v==3)
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+Out
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+int v
+v=0
+repeat{fork(print(v); v=v-1); v=v+1}until(v==3)
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+Out
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+int v
+v=0
+repeat{fork(print(v); v=v-1); v=v+1}until(v==3)
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+Out
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+v=0
+repeat{fork(print(v); v=v-1); v=v+1}until(v==3)
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 0
+Out
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+v=0
+repeat{fork(print(v); v=v-1); v=v+1}until(v==3)
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 0
+Out
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+v=0
+repeat{fork(print(v); v=v-1); v=v+1}until(v==3)
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 0
+Out
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+v=0
+repeat{fork(print(v); v=v-1); v=v+1}until(v==3)
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 0
+Out
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+repeat{fork(print(v); v=v-1); v=v+1}until(v==3)
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 0
+Out
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+repeat{fork(print(v); v=v-1); v=v+1}until(v==3)
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 0
+Out
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+repeat{fork(print(v); v=v-1); v=v+1}until(v==3)
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 0
+Out
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+repeat{fork(print(v); v=v-1); v=v+1}until(v==3)
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 0
+Out
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+fork(print(v); v=v-1)
+v=v+1
+while(!(v==3)) { fork(print(v); v=v-1); v=v+1 }
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 0
+Out
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+fork(print(v); v=v-1)
+v=v+1
+while(!(v==3)) { fork(print(v); v=v-1); v=v+1 }
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 0
+Out
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+fork(print(v); v=v-1)
+v=v+1
+while(!(v==3)) { fork(print(v); v=v-1); v=v+1 }
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 0
+Out
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+fork(print(v); v=v-1)
+v=v+1
+while(!(v==3)) { fork(print(v); v=v-1); v=v+1 }
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 0
+Out
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+fork(print(v); v=v-1)
+v=v+1
+while(!(v==3)) { fork(print(v); v=v-1); v=v+1 }
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 0
+Out
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+fork(print(v); v=v-1)
+v=v+1
+while(!(v==3)) { fork(print(v); v=v-1); v=v+1 }
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 0
+Out
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+v=v+1
+while(!(v==3)) { fork(print(v); v=v-1); v=v+1 }
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 0
+Out
+FileTable
+Heap
+--------------------
+
+id: 18
+ExeStack
+print(v)
+v=v-1
+SymTable
+v --> 0
+Out
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+v=v+1
+while(!(v==3)) { fork(print(v); v=v-1); v=v+1 }
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 0
+Out
+FileTable
+Heap
+--------------------
+
+id: 18
+ExeStack
+print(v)
+v=v-1
+SymTable
+v --> 0
+Out
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+while(!(v==3)) { fork(print(v); v=v-1); v=v+1 }
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 1
+Out
+FileTable
+Heap
+--------------------
+
+id: 18
+ExeStack
+print(v)
+v=v-1
+SymTable
+v --> 0
+Out
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+while(!(v==3)) { fork(print(v); v=v-1); v=v+1 }
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 1
+Out
+FileTable
+Heap
+--------------------
+
+id: 18
+ExeStack
+print(v)
+v=v-1
+SymTable
+v --> 0
+Out
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+fork(print(v); v=v-1)
+v=v+1
+while(!(v==3)) { fork(print(v); v=v-1); v=v+1 }
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 1
+Out
+0
+FileTable
+Heap
+--------------------
+
+id: 18
+ExeStack
+v=v-1
+SymTable
+v --> 0
+Out
+0
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+fork(print(v); v=v-1)
+v=v+1
+while(!(v==3)) { fork(print(v); v=v-1); v=v+1 }
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 1
+Out
+0
+FileTable
+Heap
+--------------------
+
+id: 18
+ExeStack
+v=v-1
+SymTable
+v --> 0
+Out
+0
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+fork(print(v); v=v-1)
+v=v+1
+while(!(v==3)) { fork(print(v); v=v-1); v=v+1 }
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 1
+Out
+0
+FileTable
+Heap
+--------------------
+
+id: 18
+ExeStack
+SymTable
+v --> -1
+Out
+0
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+fork(print(v); v=v-1)
+v=v+1
+while(!(v==3)) { fork(print(v); v=v-1); v=v+1 }
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 1
+Out
+0
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+v=v+1
+while(!(v==3)) { fork(print(v); v=v-1); v=v+1 }
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 1
+Out
+0
+FileTable
+Heap
+--------------------
+
+id: 19
+ExeStack
+print(v)
+v=v-1
+SymTable
+v --> 1
+Out
+0
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+v=v+1
+while(!(v==3)) { fork(print(v); v=v-1); v=v+1 }
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 1
+Out
+0
+FileTable
+Heap
+--------------------
+
+id: 19
+ExeStack
+print(v)
+v=v-1
+SymTable
+v --> 1
+Out
+0
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+while(!(v==3)) { fork(print(v); v=v-1); v=v+1 }
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 2
+Out
+0
+FileTable
+Heap
+--------------------
+
+id: 19
+ExeStack
+print(v)
+v=v-1
+SymTable
+v --> 1
+Out
+0
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+while(!(v==3)) { fork(print(v); v=v-1); v=v+1 }
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 2
+Out
+0
+FileTable
+Heap
+--------------------
+
+id: 19
+ExeStack
+print(v)
+v=v-1
+SymTable
+v --> 1
+Out
+0
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+fork(print(v); v=v-1)
+v=v+1
+while(!(v==3)) { fork(print(v); v=v-1); v=v+1 }
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 2
+Out
+0
+1
+FileTable
+Heap
+--------------------
+
+id: 19
+ExeStack
+v=v-1
+SymTable
+v --> 1
+Out
+0
+1
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+fork(print(v); v=v-1)
+v=v+1
+while(!(v==3)) { fork(print(v); v=v-1); v=v+1 }
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 2
+Out
+0
+1
+FileTable
+Heap
+--------------------
+
+id: 19
+ExeStack
+v=v-1
+SymTable
+v --> 1
+Out
+0
+1
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+fork(print(v); v=v-1)
+v=v+1
+while(!(v==3)) { fork(print(v); v=v-1); v=v+1 }
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 2
+Out
+0
+1
+FileTable
+Heap
+--------------------
+
+id: 19
+ExeStack
+SymTable
+v --> 0
+Out
+0
+1
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+fork(print(v); v=v-1)
+v=v+1
+while(!(v==3)) { fork(print(v); v=v-1); v=v+1 }
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 2
+Out
+0
+1
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+v=v+1
+while(!(v==3)) { fork(print(v); v=v-1); v=v+1 }
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 2
+Out
+0
+1
+FileTable
+Heap
+--------------------
+
+id: 20
+ExeStack
+print(v)
+v=v-1
+SymTable
+v --> 2
+Out
+0
+1
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+v=v+1
+while(!(v==3)) { fork(print(v); v=v-1); v=v+1 }
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 2
+Out
+0
+1
+FileTable
+Heap
+--------------------
+
+id: 20
+ExeStack
+print(v)
+v=v-1
+SymTable
+v --> 2
+Out
+0
+1
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+while(!(v==3)) { fork(print(v); v=v-1); v=v+1 }
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+Out
+0
+1
+FileTable
+Heap
+--------------------
+
+id: 20
+ExeStack
+print(v)
+v=v-1
+SymTable
+v --> 2
+Out
+0
+1
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+while(!(v==3)) { fork(print(v); v=v-1); v=v+1 }
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+Out
+0
+1
+FileTable
+Heap
+--------------------
+
+id: 20
+ExeStack
+print(v)
+v=v-1
+SymTable
+v --> 2
+Out
+0
+1
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 20
+ExeStack
+v=v-1
+SymTable
+v --> 2
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 20
+ExeStack
+v=v-1
+SymTable
+v --> 2
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 20
+ExeStack
+SymTable
+v --> 1
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+x --> 0
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+x --> 0
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+x --> 0
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+x --> 0
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+x --> 0
+y --> 0
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+x --> 0
+y --> 0
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+x --> 0
+y --> 0
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+x --> 0
+y --> 0
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+x --> 0
+y --> 0
+z --> 0
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+x --> 0
+y --> 0
+z --> 0
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+x --> 0
+y --> 0
+z --> 0
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+x --> 0
+y --> 0
+z --> 0
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+w --> 0
+x --> 0
+y --> 0
+z --> 0
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+w --> 0
+x --> 0
+y --> 0
+z --> 0
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+w --> 0
+x --> 0
+y --> 0
+z --> 0
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+w --> 0
+x --> 0
+y --> 0
+z --> 0
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+w --> 0
+x --> 1
+y --> 0
+z --> 0
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+w --> 0
+x --> 1
+y --> 0
+z --> 0
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+w --> 0
+x --> 1
+y --> 0
+z --> 0
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+y=2
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+w --> 0
+x --> 1
+y --> 0
+z --> 0
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+w --> 0
+x --> 1
+y --> 2
+z --> 0
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+w --> 0
+x --> 1
+y --> 2
+z --> 0
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+w --> 0
+x --> 1
+y --> 2
+z --> 0
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+z=3
+w=4
+print(v*10)
+SymTable
+v --> 3
+w --> 0
+x --> 1
+y --> 2
+z --> 0
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+w=4
+print(v*10)
+SymTable
+v --> 3
+w --> 0
+x --> 1
+y --> 2
+z --> 3
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+w=4
+print(v*10)
+SymTable
+v --> 3
+w --> 0
+x --> 1
+y --> 2
+z --> 3
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+w=4
+print(v*10)
+SymTable
+v --> 3
+w --> 0
+x --> 1
+y --> 2
+z --> 3
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+w=4
+print(v*10)
+SymTable
+v --> 3
+w --> 0
+x --> 1
+y --> 2
+z --> 3
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+print(v*10)
+SymTable
+v --> 3
+w --> 4
+x --> 1
+y --> 2
+z --> 3
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+print(v*10)
+SymTable
+v --> 3
+w --> 4
+x --> 1
+y --> 2
+z --> 3
+Out
+0
+1
+2
+FileTable
+Heap
+--------------------
+
+id: 17
+ExeStack
+SymTable
+v --> 3
+w --> 4
+x --> 1
+y --> 2
+z --> 3
+Out
+0
+1
+2
+30
+FileTable
+Heap
+--------------------
+

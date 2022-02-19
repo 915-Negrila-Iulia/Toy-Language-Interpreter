@@ -1,0 +1,3590 @@
+id: 21
+ExeStack
+Ref(int) v1
+Ref(int) v2
+int x
+int q
+new(v1,20)
+new(v2,30)
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+Out
+FileTable
+Heap
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+Ref(int) v1
+Ref(int) v2
+int x
+int q
+new(v1,20)
+new(v2,30)
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+Out
+FileTable
+Heap
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+Ref(int) v1
+Ref(int) v2
+int x
+int q
+new(v1,20)
+new(v2,30)
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+Out
+FileTable
+Heap
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+Ref(int) v2
+int x
+int q
+new(v1,20)
+new(v2,30)
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+v1 --> (0,int)
+Out
+FileTable
+Heap
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+Ref(int) v2
+int x
+int q
+new(v1,20)
+new(v2,30)
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+v1 --> (0,int)
+Out
+FileTable
+Heap
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+Ref(int) v2
+int x
+int q
+new(v1,20)
+new(v2,30)
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+v1 --> (0,int)
+Out
+FileTable
+Heap
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+Ref(int) v2
+int x
+int q
+new(v1,20)
+new(v2,30)
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+v1 --> (0,int)
+Out
+FileTable
+Heap
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+int x
+int q
+new(v1,20)
+new(v2,30)
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+v1 --> (0,int)
+v2 --> (0,int)
+Out
+FileTable
+Heap
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+int x
+int q
+new(v1,20)
+new(v2,30)
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+v1 --> (0,int)
+v2 --> (0,int)
+Out
+FileTable
+Heap
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+int x
+int q
+new(v1,20)
+new(v2,30)
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+v1 --> (0,int)
+v2 --> (0,int)
+Out
+FileTable
+Heap
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+int x
+int q
+new(v1,20)
+new(v2,30)
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+v1 --> (0,int)
+v2 --> (0,int)
+Out
+FileTable
+Heap
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+int q
+new(v1,20)
+new(v2,30)
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+x --> 0
+v1 --> (0,int)
+v2 --> (0,int)
+Out
+FileTable
+Heap
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+int q
+new(v1,20)
+new(v2,30)
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+x --> 0
+v1 --> (0,int)
+v2 --> (0,int)
+Out
+FileTable
+Heap
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+int q
+new(v1,20)
+new(v2,30)
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+x --> 0
+v1 --> (0,int)
+v2 --> (0,int)
+Out
+FileTable
+Heap
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+int q
+new(v1,20)
+new(v2,30)
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+x --> 0
+v1 --> (0,int)
+v2 --> (0,int)
+Out
+FileTable
+Heap
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+new(v1,20)
+new(v2,30)
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 0
+x --> 0
+v1 --> (0,int)
+v2 --> (0,int)
+Out
+FileTable
+Heap
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+new(v1,20)
+new(v2,30)
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 0
+x --> 0
+v1 --> (0,int)
+v2 --> (0,int)
+Out
+FileTable
+Heap
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+new(v1,20)
+new(v2,30)
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 0
+x --> 0
+v1 --> (0,int)
+v2 --> (0,int)
+Out
+FileTable
+Heap
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+new(v1,20)
+new(v2,30)
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 0
+x --> 0
+v1 --> (0,int)
+v2 --> (0,int)
+Out
+FileTable
+Heap
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+new(v2,30)
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (0,int)
+Out
+FileTable
+Heap
+1 --> 20
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+new(v2,30)
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (0,int)
+Out
+FileTable
+Heap
+1 --> 20
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+new(v2,30)
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (0,int)
+Out
+FileTable
+Heap
+1 --> 20
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+new(v2,30)
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (0,int)
+Out
+FileTable
+Heap
+1 --> 20
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+newLock(x)
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+--------------------
+
+id: 21
+ExeStack
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+--------------------
+
+id: 21
+ExeStack
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+--------------------
+
+id: 21
+ExeStack
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+--------------------
+
+id: 21
+ExeStack
+fork(fork(lock(x); wH(v1,rH(v1)-1); unlock(x)); lock(x); wH(v1,rH(v1)*10); unlock(x))
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+--------------------
+
+id: 21
+ExeStack
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+--------------------
+
+id: 22
+ExeStack
+fork(lock(x); wH(v1,rH(v1)-1); unlock(x))
+lock(x)
+wH(v1,rH(v1)*10)
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+--------------------
+
+id: 21
+ExeStack
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+--------------------
+
+id: 22
+ExeStack
+fork(lock(x); wH(v1,rH(v1)-1); unlock(x))
+lock(x)
+wH(v1,rH(v1)*10)
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+--------------------
+
+id: 21
+ExeStack
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+--------------------
+
+id: 22
+ExeStack
+fork(lock(x); wH(v1,rH(v1)-1); unlock(x))
+lock(x)
+wH(v1,rH(v1)*10)
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+--------------------
+
+id: 21
+ExeStack
+newLock(q)
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+--------------------
+
+id: 22
+ExeStack
+fork(lock(x); wH(v1,rH(v1)-1); unlock(x))
+lock(x)
+wH(v1,rH(v1)*10)
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+--------------------
+
+id: 21
+ExeStack
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> -1
+--------------------
+
+id: 22
+ExeStack
+lock(x)
+wH(v1,rH(v1)*10)
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> -1
+--------------------
+
+id: 23
+ExeStack
+lock(x)
+wH(v1,rH(v1)-1)
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> -1
+--------------------
+
+id: 21
+ExeStack
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> -1
+--------------------
+
+id: 22
+ExeStack
+lock(x)
+wH(v1,rH(v1)*10)
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> -1
+--------------------
+
+id: 23
+ExeStack
+lock(x)
+wH(v1,rH(v1)-1)
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> -1
+--------------------
+
+id: 21
+ExeStack
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> -1
+--------------------
+
+id: 22
+ExeStack
+lock(x)
+wH(v1,rH(v1)*10)
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> -1
+--------------------
+
+id: 23
+ExeStack
+lock(x)
+wH(v1,rH(v1)-1)
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> -1
+--------------------
+
+id: 21
+ExeStack
+fork(fork(lock(q); wH(v2,rH(v2)+5); unlock(q)); lock(q); wH(v2,rH(v2)*10); unlock(q))
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> -1
+--------------------
+
+id: 22
+ExeStack
+lock(x)
+wH(v1,rH(v1)*10)
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> -1
+--------------------
+
+id: 23
+ExeStack
+lock(x)
+wH(v1,rH(v1)-1)
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> -1
+--------------------
+
+id: 21
+ExeStack
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 23
+1 --> -1
+--------------------
+
+id: 22
+ExeStack
+lock(x)
+wH(v1,rH(v1)*10)
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 23
+1 --> -1
+--------------------
+
+id: 23
+ExeStack
+wH(v1,rH(v1)-1)
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 23
+1 --> -1
+--------------------
+
+id: 24
+ExeStack
+fork(lock(q); wH(v2,rH(v2)+5); unlock(q))
+lock(q)
+wH(v2,rH(v2)*10)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 23
+1 --> -1
+--------------------
+
+id: 21
+ExeStack
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 23
+1 --> -1
+--------------------
+
+id: 22
+ExeStack
+lock(x)
+wH(v1,rH(v1)*10)
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 23
+1 --> -1
+--------------------
+
+id: 23
+ExeStack
+wH(v1,rH(v1)-1)
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 23
+1 --> -1
+--------------------
+
+id: 24
+ExeStack
+fork(lock(q); wH(v2,rH(v2)+5); unlock(q))
+lock(q)
+wH(v2,rH(v2)*10)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 23
+1 --> -1
+--------------------
+
+id: 21
+ExeStack
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 23
+1 --> -1
+--------------------
+
+id: 22
+ExeStack
+lock(x)
+wH(v1,rH(v1)*10)
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 23
+1 --> -1
+--------------------
+
+id: 23
+ExeStack
+wH(v1,rH(v1)-1)
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 23
+1 --> -1
+--------------------
+
+id: 24
+ExeStack
+fork(lock(q); wH(v2,rH(v2)+5); unlock(q))
+lock(q)
+wH(v2,rH(v2)*10)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 23
+1 --> -1
+--------------------
+
+id: 21
+ExeStack
+no operation
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 23
+1 --> -1
+--------------------
+
+id: 22
+ExeStack
+lock(x)
+wH(v1,rH(v1)*10)
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 23
+1 --> -1
+--------------------
+
+id: 23
+ExeStack
+wH(v1,rH(v1)-1)
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 23
+1 --> -1
+--------------------
+
+id: 24
+ExeStack
+fork(lock(q); wH(v2,rH(v2)+5); unlock(q))
+lock(q)
+wH(v2,rH(v2)*10)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 20
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 23
+1 --> -1
+--------------------
+
+id: 21
+ExeStack
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 23
+1 --> -1
+--------------------
+
+id: 22
+ExeStack
+lock(x)
+wH(v1,rH(v1)*10)
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 23
+1 --> -1
+--------------------
+
+id: 23
+ExeStack
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 23
+1 --> -1
+--------------------
+
+id: 24
+ExeStack
+lock(q)
+wH(v2,rH(v2)*10)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 23
+1 --> -1
+--------------------
+
+id: 25
+ExeStack
+lock(q)
+wH(v2,rH(v2)+5)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 23
+1 --> -1
+--------------------
+
+id: 21
+ExeStack
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 23
+1 --> -1
+--------------------
+
+id: 22
+ExeStack
+lock(x)
+wH(v1,rH(v1)*10)
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 23
+1 --> -1
+--------------------
+
+id: 23
+ExeStack
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 23
+1 --> -1
+--------------------
+
+id: 24
+ExeStack
+lock(q)
+wH(v2,rH(v2)*10)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 23
+1 --> -1
+--------------------
+
+id: 25
+ExeStack
+lock(q)
+wH(v2,rH(v2)+5)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 23
+1 --> -1
+--------------------
+
+id: 21
+ExeStack
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 22
+1 --> -1
+--------------------
+
+id: 22
+ExeStack
+wH(v1,rH(v1)*10)
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 22
+1 --> -1
+--------------------
+
+id: 23
+ExeStack
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 22
+1 --> -1
+--------------------
+
+id: 24
+ExeStack
+lock(q)
+wH(v2,rH(v2)*10)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 22
+1 --> -1
+--------------------
+
+id: 25
+ExeStack
+lock(q)
+wH(v2,rH(v2)+5)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 22
+1 --> -1
+--------------------
+
+id: 21
+ExeStack
+no operation
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 22
+1 --> -1
+--------------------
+
+id: 22
+ExeStack
+wH(v1,rH(v1)*10)
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 22
+1 --> -1
+--------------------
+
+id: 24
+ExeStack
+lock(q)
+wH(v2,rH(v2)*10)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 22
+1 --> -1
+--------------------
+
+id: 25
+ExeStack
+lock(q)
+wH(v2,rH(v2)+5)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 22
+1 --> -1
+--------------------
+
+id: 21
+ExeStack
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 22
+1 --> 24
+--------------------
+
+id: 22
+ExeStack
+wH(v1,rH(v1)*10)
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 22
+1 --> 24
+--------------------
+
+id: 24
+ExeStack
+wH(v2,rH(v2)*10)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 22
+1 --> 24
+--------------------
+
+id: 25
+ExeStack
+lock(q)
+wH(v2,rH(v2)+5)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 22
+1 --> 24
+--------------------
+
+id: 21
+ExeStack
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 22
+1 --> 24
+--------------------
+
+id: 22
+ExeStack
+wH(v1,rH(v1)*10)
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 22
+1 --> 24
+--------------------
+
+id: 24
+ExeStack
+wH(v2,rH(v2)*10)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 22
+1 --> 24
+--------------------
+
+id: 25
+ExeStack
+lock(q)
+wH(v2,rH(v2)+5)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 19
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 22
+1 --> 24
+--------------------
+
+id: 21
+ExeStack
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 22
+1 --> 24
+--------------------
+
+id: 22
+ExeStack
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 22
+1 --> 24
+--------------------
+
+id: 24
+ExeStack
+wH(v2,rH(v2)*10)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 22
+1 --> 24
+--------------------
+
+id: 25
+ExeStack
+lock(q)
+wH(v2,rH(v2)+5)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 22
+1 --> 24
+--------------------
+
+id: 21
+ExeStack
+no operation
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 22
+1 --> 24
+--------------------
+
+id: 22
+ExeStack
+unlock(x)
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 22
+1 --> 24
+--------------------
+
+id: 24
+ExeStack
+wH(v2,rH(v2)*10)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 22
+1 --> 24
+--------------------
+
+id: 25
+ExeStack
+lock(q)
+wH(v2,rH(v2)+5)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 30
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 22
+1 --> 24
+--------------------
+
+id: 21
+ExeStack
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 300
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> 24
+--------------------
+
+id: 22
+ExeStack
+SymTable
+q --> 0
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 300
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> 24
+--------------------
+
+id: 24
+ExeStack
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 300
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> 24
+--------------------
+
+id: 25
+ExeStack
+lock(q)
+wH(v2,rH(v2)+5)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 300
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> 24
+--------------------
+
+id: 21
+ExeStack
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 300
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> 24
+--------------------
+
+id: 24
+ExeStack
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 300
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> 24
+--------------------
+
+id: 25
+ExeStack
+lock(q)
+wH(v2,rH(v2)+5)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 300
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> 24
+--------------------
+
+id: 21
+ExeStack
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 300
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> -1
+--------------------
+
+id: 24
+ExeStack
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 300
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> -1
+--------------------
+
+id: 25
+ExeStack
+lock(q)
+wH(v2,rH(v2)+5)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 300
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> -1
+--------------------
+
+id: 21
+ExeStack
+no operation
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 300
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> -1
+--------------------
+
+id: 25
+ExeStack
+lock(q)
+wH(v2,rH(v2)+5)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 300
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> -1
+--------------------
+
+id: 21
+ExeStack
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 300
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> 25
+--------------------
+
+id: 25
+ExeStack
+wH(v2,rH(v2)+5)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 300
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> 25
+--------------------
+
+id: 21
+ExeStack
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 300
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> 25
+--------------------
+
+id: 25
+ExeStack
+wH(v2,rH(v2)+5)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 300
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> 25
+--------------------
+
+id: 21
+ExeStack
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 300
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> 25
+--------------------
+
+id: 25
+ExeStack
+wH(v2,rH(v2)+5)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 300
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> 25
+--------------------
+
+id: 21
+ExeStack
+lock(x)
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 300
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> 25
+--------------------
+
+id: 25
+ExeStack
+wH(v2,rH(v2)+5)
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 300
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> 25
+--------------------
+
+id: 21
+ExeStack
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 305
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 21
+1 --> 25
+--------------------
+
+id: 25
+ExeStack
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 305
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 21
+1 --> 25
+--------------------
+
+id: 21
+ExeStack
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 305
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 21
+1 --> 25
+--------------------
+
+id: 25
+ExeStack
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 305
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 21
+1 --> 25
+--------------------
+
+id: 21
+ExeStack
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 305
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 21
+1 --> -1
+--------------------
+
+id: 25
+ExeStack
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 305
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 21
+1 --> -1
+--------------------
+
+id: 21
+ExeStack
+print(rH(v1))
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+FileTable
+Heap
+1 --> 190
+2 --> 305
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 21
+1 --> -1
+--------------------
+
+id: 21
+ExeStack
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+190
+FileTable
+Heap
+1 --> 190
+2 --> 305
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 21
+1 --> -1
+--------------------
+
+id: 21
+ExeStack
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+190
+FileTable
+Heap
+1 --> 190
+2 --> 305
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 21
+1 --> -1
+--------------------
+
+id: 21
+ExeStack
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+190
+FileTable
+Heap
+1 --> 190
+2 --> 305
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 21
+1 --> -1
+--------------------
+
+id: 21
+ExeStack
+unlock(x)
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+190
+FileTable
+Heap
+1 --> 190
+2 --> 305
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> 21
+1 --> -1
+--------------------
+
+id: 21
+ExeStack
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+190
+FileTable
+Heap
+1 --> 190
+2 --> 305
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> -1
+--------------------
+
+id: 21
+ExeStack
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+190
+FileTable
+Heap
+1 --> 190
+2 --> 305
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> -1
+--------------------
+
+id: 21
+ExeStack
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+190
+FileTable
+Heap
+1 --> 190
+2 --> 305
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> -1
+--------------------
+
+id: 21
+ExeStack
+lock(q)
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+190
+FileTable
+Heap
+1 --> 190
+2 --> 305
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> -1
+--------------------
+
+id: 21
+ExeStack
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+190
+FileTable
+Heap
+1 --> 190
+2 --> 305
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> 21
+--------------------
+
+id: 21
+ExeStack
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+190
+FileTable
+Heap
+1 --> 190
+2 --> 305
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> 21
+--------------------
+
+id: 21
+ExeStack
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+190
+FileTable
+Heap
+1 --> 190
+2 --> 305
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> 21
+--------------------
+
+id: 21
+ExeStack
+print(rH(v2))
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+190
+FileTable
+Heap
+1 --> 190
+2 --> 305
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> 21
+--------------------
+
+id: 21
+ExeStack
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+190
+305
+FileTable
+Heap
+1 --> 190
+2 --> 305
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> 21
+--------------------
+
+id: 21
+ExeStack
+unlock(q)
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+190
+305
+FileTable
+Heap
+1 --> 190
+2 --> 305
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> 21
+--------------------
+
+id: 21
+ExeStack
+SymTable
+q --> 1
+x --> 0
+v1 --> (1,int)
+v2 --> (2,int)
+Out
+190
+305
+FileTable
+Heap
+1 --> 190
+2 --> 305
+CyclicBarrierTable
+LatchTable
+LockTable
+0 --> -1
+1 --> -1
+--------------------
+
