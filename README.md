@@ -1,4 +1,5 @@
 ## Toy-Language-Interpreter
+
  - Implemented a Language Interpreter with a "debugger" like GUI (in JavaFX) showing execution of a program step by step. 
  - Handles expressions and statements.
  - Structures used (for a programState):
@@ -13,3 +14,6 @@
    - Cyclic barrier;
    - Locks.
 
+![interpreter_programs](https://github.com/915-Negrila-Iulia/Toy-Language-Interpreter/blob/master/Interpreter1.png?raw=true)
+
+![interpreter_program_execution](https://github.com/915-Negrila-Iulia/Toy-Language-Interpreter/blob/master/Interpreter2.png?raw=true)
