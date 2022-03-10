@@ -31,6 +31,7 @@ import javafx.util.Callback;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.net.URL;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
 
@@ -61,7 +62,7 @@ public class PrgListController implements Initializable{
 
     public void setUp(){
 
-        String path = "D:\\An2 Sem1\\MAP\\ToyLanguageInterpreter_FinalVersion\\src\\main\\java\\app\\LogFiles\\";
+        String path = "F:\\An2 Sem1\\MAP\\ToyLanguageInterpreter_FinalVersion\\src\\main\\java\\app\\LogFiles\\";
 
         MyStack<IStatement> exeStack1 = new MyStack<>();
         MyDictionary<String, Value> symTable1 = new MyDictionary<>();

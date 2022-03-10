@@ -17,6 +17,7 @@ import app.Repository.IRepository;
 import app.Repository.Repository;
 
 import java.io.BufferedReader;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 
 public class Interpreter {
@@ -31,7 +32,7 @@ public class Interpreter {
             be executed by the controller
          */
 
-        String path = "D:\\An2 Sem1\\MAP\\ToyLanguageInterpreter_FinalVersion\\src\\main\\java\\app\\LogFiles\\";
+        String path = "F:\\An2 Sem1\\MAP\\ToyLanguageInterpreter_FinalVersion\\src\\main\\java\\app\\LogFiles\\";
 
         MyStack<IStatement> exeStack1 = new MyStack<>();
         MyDictionary<String, Value> symTable1 = new MyDictionary<>();
@@ -47,7 +48,7 @@ public class Interpreter {
                 new CompoundStatement(new AssignmentStatement("v", new ValueExpression(new IntValue(2))),
                         new PrintStatement(new VariableExpression("v"))));
         ProgramState program1 = new ProgramState(exeStack1, symTable1, output1, fileTable1, heap1, cyclicBarrier1, latchTable1, lockTable1, semaphoreTable1, example1);
-        IRepository repository1 = new Repository(program1, path + "log1.txt");
+        IRepository repository1 = new Repository(program1, Paths.get("log1.txt").toString());
         Controller controller1 = new Controller(repository1);
 
         MyStack<IStatement> exeStack2 = new MyStack<>();
